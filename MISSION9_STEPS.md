@@ -2,6 +2,24 @@
 
 Follow these steps to complete the assignment requirements exactly.
 
+## 0. Set up the React + TypeScript project (Vite)
+If your folder does not already have a React project:
+1. Open the assignment folder in VS Code.
+2. Make sure these root files exist:
+- `package.json`
+- `index.html`
+- `tsconfig.json`
+- `tsconfig.app.json`
+- `tsconfig.node.json`
+- `vite.config.ts`
+3. Make sure these `src` files exist:
+- `src/main.tsx`
+- `src/vite-env.d.ts`
+4. Install dependencies:
+- `npm install`
+5. Start the dev server:
+- `npm run dev`
+
 ## 1. Put the JSON file in `src`
 1. Move `CollegeBasketballTeams.json` into your app's `src` folder.
 2. Final location should be: `src/CollegeBasketballTeams.json`
