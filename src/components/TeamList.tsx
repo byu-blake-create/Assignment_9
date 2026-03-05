@@ -10,10 +10,12 @@ type Team = {
 };
 
 function TeamList() {
+  // Pull the teams array from the imported JSON file.
   const teams: Team[] = teamsData.teams;
 
   return (
     <section>
+      {/* Render one TeamCard per team in the dataset */}
       {teams.map((team) => (
         <TeamCard
           key={team.tid}
